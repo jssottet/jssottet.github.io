@@ -15,7 +15,7 @@ We can do the same for modelling in general, targeting a modelling framework (e.
 
 Writting some format conversion is sometime hard requiring to write complex transformation, parsers, etc. This is a two steps approach, it requires first to derive (parse) the source into a modelling format processable, then to transform the raw objects coming from the parsing into a structured model conforms to the metamodel (here, it is a kind of viewpoint) you want to focus on. For instance, think of an excel sheet and covert its data into a structured graph in you environment... For understanding the (accidental) complexity I suggest you to see the [ATL use-cases](https://www.eclipse.org/atl/usecases/SoftwareQualityControlToolsInteroperability/).
 
-What I intended to do, is to avoid writting transformation... ah! lazyness ;-) Most of the time, raw parsers exists for many classical input format. For excel, a good library is available in NodeJS : [NPM - XLSX](https://www.npmjs.com/package/xlsx)
+What I intended to do, is to avoid writting transformation... ah! lazyness ;-) Most of the time, raw parsers exists for many classical input format. For instance, a good library to parser excel files is available in NodeJS : [NPM - XLSX](https://www.npmjs.com/package/xlsx). So no need to write down complex code. Then once this first conversion in a targeted language (with my prefered for the moment JavaScript)... you can raise and provide a metamodel for the data. You just have to provide an input metamodel on which raw data could fit: you specify the data you want to observe and structure them.
 
 Indeed, this could go father and be uselful for **structuring raw data**.
 
