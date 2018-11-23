@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Easier Representation Translation: using Classifiers from a metamodel!
+Why?
 ---
 
 # Model Injection - From any source to a model (expressed in a modelling framework)
@@ -14,7 +15,7 @@ We can do the same for modelling in general, targeting a modelling framework (e.
 
 Writting some format conversion is sometime hard requiring to write complex transformation, parsers, etc. This is a two steps approach, it requires first to derive (parse) the source into a modelling format processable, then to transform the raw objects coming from the parsing into a structured model conforms to the metamodel (here, it is a kind of viewpoint) you want to focus on. For instance, think of an excel sheet and covert its data into a structured graph in you environment... For understanding the (accidental) complexity I suggest you to see the [ATL use-cases](https://www.eclipse.org/atl/usecases/SoftwareQualityControlToolsInteroperability/).
 
-
+What I intended to do, is to avoid writting transformation... ah! lazyness ;-) Most of the time, raw parsers exists for many classical input format. For excel, a good library is available in NodeJS : [NPM - XLSX](https://www.npmjs.com/package/xlsx)
 
 Indeed, this could go father and be uselful for **structuring raw data**.
 
