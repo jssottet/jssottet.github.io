@@ -3,7 +3,7 @@ layout: post
 title: Easier Representation Translation using Classifiers from a metamodel!
 ---
 
-# Model Injection - From any source to a model (expressed in a modelling framework)
+### Model Injection - From any source to a model (expressed in a modelling framework)
 
 One of important concern when speaking about representation of reality (i.e., models) is the connection to the "real" world (also called system under study).  By real world, I mean the **potential evidences** (e.g., data collected by captors) that could feed/reinforce the model in its relation to the reality of the system under study. Someone could say, the "trueness" of the model...I do not like it since it represent a perspective on system. Someone said to me (maybe taking the sentence from another famous MDE people) a model is always false. True, false these are absolute relation in the relative world of modelling! Of course, a model can embed some error, misconceptions, etc... for sure true or false is not the first qualifier we can apply to models. 
 
