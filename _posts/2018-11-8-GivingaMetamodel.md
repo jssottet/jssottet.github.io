@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Easier Representation Translation: using Classifiers from a metamodel!
-Why?
 ---
 
 # Model Injection - From any source to a model (expressed in a modelling framework)
