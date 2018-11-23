@@ -10,9 +10,9 @@ So, modelling is not just about building conceptual models coming from the head 
 Some models are produced from existing artifacts, like Abstract Syntax Trees coming from source code (I see you raising your hand and telling me that a source code is also a model, right!). Let's be factual, there are different supports/formats for knowledge representation. In the literature we can see the notion of technical/technological space, the metaphor of villages (from A. Vallecillo), these are all explaining that some operations are more effective using some support for knowledge representation. As such, a data-base using tables is better for rapid querying of list/properties of elements whereas a graph data-base will be more efficient for highly linked data with few properties. 
 We can do the same for modelling in general, targeting a modelling framework (e.g., EMF, JSMF, etc.).
 
-Writting some format conversion is sometime hard requiring to write complex transformation, parsers, etc. This is a many step approach, it requires to derive a 
+Writting some format conversion is sometime hard requiring to write complex transformation, parsers, etc. This is a two steps approach, it requires first to derive (parse) the source into a modelling format processable, then to transform the raw objects coming from the parsing into a structured model conforms to the metamodel (here, it is a kind of viewpoint) you want to focus on. For instance, think of an excel sheet and covert its data into a structured graph in you environment... For understanding the (accidental) complexity I suggest you to see the [ATL use-cases](https://www.eclipse.org/atl/usecases/SoftwareQualityControlToolsInteroperability/).
 
-[Image]
+
 
 Indeed, this could go father and be uselful for **structuring raw data**.
 
